@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* LOGO */}
         <div>
           <h1 className="text-2xl md:text-3xl font-black bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
-            SHRI HARI PRASATH
+            SHRIHARIPRASATH
           </h1>
 
           <p className="text-[10px] md:text-xs text-slate-400 tracking-[4px] uppercase">

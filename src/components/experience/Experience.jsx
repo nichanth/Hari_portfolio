@@ -2,20 +2,33 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    role: "Embedded Software Technical Lead",
-    company: "Automotive Industry",
-    year: "2021 - Present",
+    role: "SW Technical Lead",
+    company: "ZF Overseas Inc, Seoul, South Korea",
+    year: "SEP 2025 - Till Date",
     description:
-      "Leading AUTOSAR architecture, ECU integration, embedded software development and cybersecurity implementation.",
+      "Leading end-to-end application software development and technical delivery for Steering ECU programs within the Chassis 2.0 platform using AUTOSAR architecture. Coordinating with BSW, Validation, Functional Safety (ISO 26262), and Cybersecurity (ISO 21434) teams.",
   },
-
   {
-    role: "Embedded Software Engineer",
-    company: "Automotive Systems",
-    year: "2018 - 2021",
+    role: "Technical Lead",
+    company: "ZF Technology Centre India, Hyderabad",
+    year: "JAN 2022 - SEP 2025",
     description:
-      "Worked on CAN/CAN FD communication, diagnostics, ECU development and embedded C programming.",
+      "Integrated application software components, BSW modules, and low-level drivers for Electric Power Steering (EPS) variants. Handled AUTOSAR ECU model configuration, NVM, OS, RTE code generation, secure bootloader integration, and linker script adaptation.",
   },
+  {
+    role: "Embedded SW Lead",
+    company: "UST Global Technologies, Coimbatore",
+    year: "MAR 2019 - JAN 2022",
+    description:
+      "Developed and integrated platform foundation software components for Robert Bosch Engineering. Developed and optimized reliable tools/environments for CI/CD pipelines working within a DevOps framework.",
+  },
+  {
+    role: "Senior Engineer - R&D",
+    company: "SS Systems, Coimbatore",
+    year: "JUN 2013 - MAR 2019",
+    description:
+      "Designed, programmed, and debugged system software for Industrial Power Electronics and IoT products. Structured hardware/software architectures, implemented core functions, and developed test setups/jigs for validation.",
+  }
 ];
 
 export default function Experience() {

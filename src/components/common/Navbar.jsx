@@ -28,7 +28,7 @@ export default function Navbar() {
           </h1>
 
           <p className="text-[10px] md:text-xs text-slate-400 tracking-[4px] uppercase">
-            AUTOSAR ARCHITECT
+            TECHNICAL LEAD
           </p>
         </div>
 

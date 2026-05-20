@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import HeroCanvas from "./HeroCanvas";
+import myResume from "../../assets/Shrihariprasath_CV_2026.pdf"
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -46,7 +47,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
           <a
-            href="/resume.pdf"
+            href={myResume}
             download="Shrihariprasath_Basuvaiyan_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
